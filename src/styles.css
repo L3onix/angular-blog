@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+    --color-primary: #aa00ff;
+    --color-purple: #aa00ff;
+    --color-secondary: #8439aa;
+    --color-dark-purple: #8439aa;
+    --color-green: #c6ff00;
+    --color-blue: #00efff;
+    --color-orange: #ff6700;
+}
+
+body {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 0rem;
+}
