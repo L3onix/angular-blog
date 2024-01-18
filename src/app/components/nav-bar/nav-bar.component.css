@@ -20,7 +20,15 @@ section {
 }
 
 .brand {
+    display: flex;
+    flex-direction: row;
     margin-right: 1.5rem;
+    cursor: pointer;
+}
+
+.brand > svg {
+    width: 1.4rem;
+    margin-right: 0.3rem;
 }
 
 .brand > span {
@@ -33,6 +41,7 @@ section {
     color: gray;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
+    cursor: pointer;
 }
 
 .right {
@@ -47,6 +56,7 @@ section {
 .right > span { 
     color: gray;
     margin-right: 1rem;
+    cursor: pointer;
 }
 
 .right > button {
@@ -55,4 +65,5 @@ section {
     border: none;
     border-radius: 0.3rem;
     padding: 0.5rem;
+    cursor: pointer;
 }
