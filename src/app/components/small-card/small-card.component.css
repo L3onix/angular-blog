@@ -1,0 +1,8 @@
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+section > img {
+    width: 15rem;
+}
