@@ -30,8 +30,10 @@ section {
     margin-left: auto;
     display: flex;
     flex-direction: column;
-    background-color: blue;
-    justify-content: space-between;
+}
+
+.cards-right > app-small-card {
+    margin-bottom: 1rem;
 }
 
 h2 {
