@@ -1,18 +1,29 @@
 section {
     display: flex;
+    flex-direction: column;
+}
+
+section > div {
+    display: flex;
     flex-direction: row;
 }
 
-section > img {
+section > div > img {
     width: 50%;
+    height: auto;
+    margin-bottom: auto;
     margin-right: 1rem;
     border-radius: 0.2rem;
+}
+
+section > div > div {
+    display: flex;
+    flex-direction: column;
 }
 
 .post-info {
     display: flex;
     flex-direction: row;
-    margin-top: 1rem;
 }
 
 .post-info > span{
@@ -32,16 +43,19 @@ section > img {
 h2 {
     font-weight: 400;
     font-size: 1.3rem;
+    margin: 0.5rem 0rem 0.5rem 0rem;
 }
 
 p {
     color: gray; 
     font-size: 1.1rem;
+    margin: 0.5rem 0rem 1rem 0rem ;
 }
 
 .post-tags {
     display: flex;
     flex-direction: row;
+    margin-top: 0.5rem;
 }
 
 app-post-tag {
@@ -52,6 +66,7 @@ app-post-tag {
     cursor: pointer;
     display: flex;
     flex-direction: column;
-    margin: 1rem 0rem 1rem 0rem;
+    margin: 0rem 0rem 1rem 0rem;
     padding: 0rem 0rem 0rem 0rem;
+    align-items: start
 }
