@@ -4,11 +4,15 @@
 :root {
     --color-primary: #aa00ff;
     --color-purple: #aa00ff;
+    --color-purple: #aa00ff88;
     --color-secondary: #8439aa;
     --color-dark-purple: #8439aa;
     --color-green: #c6ff00;
+    --color-green-light: #c6ff0088;
     --color-blue: #00efff;
+    --color-blue-light: #00efff88;
     --color-orange: #ff6700;
+    --color-orange-light: #ff670088;
 }
 
 body, app-root, app-home {

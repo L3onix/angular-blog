@@ -17,13 +17,13 @@ section {
     display: flex;
     flex-direction: row;
     width: 100%;
+    min-height: 32rem;
 }
 
 .cards-left {
     display: flex;
     flex: 0 0 50%;
     margin-right: 1rem;
-    background-color: red;
 }
 
 .cards-right {
@@ -32,4 +32,8 @@ section {
     flex-direction: column;
     background-color: blue;
     justify-content: space-between;
+}
+
+h2 {
+    font-weight: 400;
 }
