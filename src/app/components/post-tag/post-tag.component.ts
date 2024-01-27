@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-post-tag',
@@ -8,4 +8,14 @@ import { Component } from '@angular/core';
   styleUrl: './post-tag.component.css'
 })
 export class PostTagComponent {
+  @Input()
+  tagName = ''
+
+  getColor(): string {
+    return ""
+  }
+
+  getBackgroundColor(): string {
+    return ""
+  }
 }
