@@ -1,28 +1,12 @@
 <section>
     <app-nav-bar></app-nav-bar>
     <app-post-title
-        author="Zezinho Muito louco"
-        date="21/09/09"
-        img="https://img.freepik.com/fotos-gratis/grupo-de-pessoas-diversas-tendo-uma-reuniao-de-negocios_53876-25060.jpg?w=2000&t=st=1705684585~exp=1705685185~hmac=d917106940de5a8a0a96478fa198369169695e1460d5ebf0e99d48fe4ce6eaf4"
-        title="Resumo da Opera: ele merece tudo isso"
+        author="{{ author }}"
+        date="{{ date }}"
+        img="{{ img }}"
+        title="{{ title }}"
     ></app-post-title>
-    <div class="post-content">
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam elementum diam ut eros luctus congue. Aliquam aliquam aliquam vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean maximus mi lobortis sapien consectetur feugiat. Integer in sapien et lorem maximus fermentum et a enim. Vestibulum efficitur imperdiet lacus quis feugiat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-        </p>
-        <p>
-            Nulla quis feugiat nulla. Phasellus scelerisque ante sit amet mi sodales sodales. Quisque ac hendrerit tellus. Vestibulum pulvinar ante a purus accumsan tincidunt. Sed non mi quam. Integer ex ante, blandit sit amet vulputate nec, molestie eget ipsum. Cras egestas urna lorem, nec ultricies est congue et. In maximus dictum nisl. Etiam pellentesque erat sit amet euismod porttitor. Fusce dui sapien, facilisis id urna in, elementum venenatis libero. Aliquam non erat sit amet tortor fringilla commodo sed vel sapien. Duis a gravida augue. Phasellus dictum vitae tortor at elementum. Suspendisse potenti. Nulla eu neque id turpis euismod vulputate.
-        </p>
-        <p>
-            Sed porta at ipsum sed imperdiet. Duis tempus cursus orci, feugiat facilisis diam elementum eu. Vivamus id convallis nunc. Quisque eros urna, dignissim non risus at, pellentesque efficitur eros. Phasellus in varius sapien, quis tristique sapien. Cras scelerisque libero ac volutpat eleifend. Donec dignissim egestas semper.
-        </p>
-        <p>
-            Sed dictum pellentesque velit, in consequat ipsum porttitor vitae. Donec elementum, neque a feugiat laoreet, ante dolor malesuada neque, in vehicula elit quam sit amet turpis. Vivamus vitae auctor nunc, quis feugiat tortor. Curabitur quis tellus ligula. Nunc in dolor feugiat, tempor lacus in, hendrerit nisl. Aliquam lectus orci, rutrum eu risus ac, convallis dapibus nulla. Duis in sollicitudin turpis, accumsan luctus leo. Integer nec auctor dolor. Donec ac consequat dolor, vitae sagittis velit. Vestibulum ultrices ex eget tempor dapibus. Cras ultricies metus vitae erat elementum, nec luctus justo lacinia. Nam malesuada mauris sapien, ut tincidunt lorem porta sed. Pellentesque id erat felis. Nam egestas tortor eu pulvinar pulvinar. Quisque porta, orci sit amet tempus placerat, leo justo lobortis dui, dignissim dictum sem leo sed diam. Mauris viverra erat in elementum euismod.
-        </p>
-        <p>
-            Cras eget ligula consequat augue efficitur sodales eget nec libero. Integer ac suscipit nibh. Donec sit amet magna id augue tincidunt pretium at sed sapien. Ut molestie lectus in risus rhoncus ultricies. In dictum risus erat, eget pretium eros lacinia tristique. Sed facilisis porttitor ornare. Sed vitae turpis in sem auctor tincidunt. Morbi vitae faucibus mi.
-        </p>
-    </div>
+    <div class="post-content" [innerHTML]="text"></div>
     <div>
         <app-post-tag tagName="Teste"></app-post-tag>
         <app-post-tag tagName="Teste"></app-post-tag>

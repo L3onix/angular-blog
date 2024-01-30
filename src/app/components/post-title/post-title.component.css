@@ -26,6 +26,7 @@ section > img {
 
 h1 {
   font-size: 2rem;
+  text-align: right;
 }
 
 section > div > div {
