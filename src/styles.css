@@ -15,8 +15,9 @@
     --color-orange-light: #ff670088;
 }
 
-body, app-root, app-home {
+body, app-root, app-home, app-post {
     display: flex;
+    width: 100%;
 }
 
 body {

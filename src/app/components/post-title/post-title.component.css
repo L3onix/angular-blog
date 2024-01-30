@@ -1,0 +1,45 @@
+section {
+  display: flex;
+  flex-direction: row ;
+  width: 100%;
+  height: 15rem;
+  margin: 3rem 0rem 3rem 0rem;
+}
+
+section > div {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 50%;
+  margin-left: 0rem;
+  margin-right: 0.5rem;
+  align-items: end;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+section > img {
+  display: flex;
+  margin-left: 0rem;
+  margin-right: auto;
+  border-radius: 0.2rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+section > div > div {
+  display: flex;
+  flex-direction: row;
+  color: var(--color-primary);
+}
+
+fa-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-primary);
+  font-size: 0.4rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
