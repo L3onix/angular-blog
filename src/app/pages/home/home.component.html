@@ -6,30 +6,27 @@
         <div>
             <div class="cards-left">
                 <app-big-card
-                    postAuthor="Teste"
-                    postDate="12 de jan"
-                    postImg=""
-                    postSummary="asdfasdfasdf"
-                    postTags=""
-                    postTitle="Teste"
+                    postAuthor="{{ posts[0].author }}"
+                    postDate="{{ posts[0].date }}"
+                    postImg="{{ posts[0].img }}"
+                    postSummary="{{ posts[0].summary }}"
+                    postTitle="{{ posts[0].title }}"
                 ></app-big-card>
             </div>
             <div class="cards-right">
                 <app-small-card
-                    postAuthor="Teste"
-                    postDate=""
-                    postImg=""
-                    postSummary=""
-                    postTags=""
-                    postTitle=""
+                    postAuthor="{{ posts[1].author }}"
+                    postDate="{{ posts[1].date }}"
+                    postImg="{{ posts[1].img }}"
+                    postSummary="{{ posts[1].summary }}"
+                    postTitle="{{ posts[1].title }}"
                 ></app-small-card>
                 <app-small-card
-                    postAuthor="Teste"
-                    postDate=""
-                    postImg=""
-                    postSummary=""
-                    postTags=""
-                    postTitle=""
+                    postAuthor="{{ posts[2].author }}"
+                    postDate="{{ posts[2].date }}"
+                    postImg="{{ posts[2].img }}"
+                    postSummary="{{ posts[2].summary }}"
+                    postTitle="{{ posts[2].title }}"
                 ></app-small-card>
             </div>
         </div>
