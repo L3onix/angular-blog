@@ -6,6 +6,7 @@
         <div>
             <div class="cards-left">
                 <app-big-card
+                    [id]="posts[0].id"
                     postAuthor="{{ posts[0].author }}"
                     postDate="{{ posts[0].date }}"
                     postImg="{{ posts[0].img }}"
@@ -15,6 +16,7 @@
             </div>
             <div class="cards-right">
                 <app-small-card
+                    [id]="posts[1].id"
                     postAuthor="{{ posts[1].author }}"
                     postDate="{{ posts[1].date }}"
                     postImg="{{ posts[1].img }}"
@@ -22,6 +24,7 @@
                     postTitle="{{ posts[1].title }}"
                 ></app-small-card>
                 <app-small-card
+                    [id]="posts[2].id"
                     postAuthor="{{ posts[2].author }}"
                     postDate="{{ posts[2].date }}"
                     postImg="{{ posts[2].img }}"
